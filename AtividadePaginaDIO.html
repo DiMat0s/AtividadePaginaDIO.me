@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Clínica Médica</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <img src="header_principal.jpg" alt="Header Principal">
+    </header>
+
+    <!-- Menu de Navegação -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="sobre.html">Sobre a Clínica</a></li>
+            <li><a href="atendimento.html">Horário de Atendimento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo -->
+    <div id="content">
+        <!-- Página Principal -->
+        <section id="pagina-principal">
+            <h1>Bem-vindo à Clínica Médica</h1>
+            <p>A Clínica Médica é um espaço dedicado ao cuidado da sua saúde e bem-estar. Com uma equipe de
+                profissionais altamente qualificados e especializados em diversas áreas da medicina, estamos
+                comprometidos em fornecer serviços de saúde de alta qualidade para a comunidade.</p>
+        </section>
+
+        <!-- Sobre a Clínica -->
+        <section id="sobre-clinica">
+            <h1>Sobre a Clínica</h1>
+            <p>Nossa missão é proporcionar atendimento personalizado, integrando abordagens preventivas e curativas para
+                garantir o melhor tratamento para os nossos pacientes. Seja para consultas de rotina, exames
+                especializados ou acompanhamento médico contínuo, estamos aqui para cuidar de você e de sua família.</p>
+            <p>Na Clínica Médica, valorizamos a empatia, a dedicação e a excelência no atendimento. Estamos sempre
+                atualizados com as últimas tecnologias e avanços médicos, garantindo que você receba os melhores
+                cuidados de saúde disponíveis.</p>
+        </section>
+
+        <!-- Horário de Atendimento -->
+        <section id="horario-atendimento">
+            <h1>Horário de Atendimento</h1>
+            <p>Na Clínica Médica, oferecemos uma variedade de serviços especializados para atender às necessidades de
+                saúde de todos os pacientes. Nossa equipe de profissionais altamente qualificados está comprometida em
+                fornecer cuidados abrangentes e personalizados, visando a sua saúde e bem-estar.</p>
+
+            <p>Entre os serviços oferecidos, destacamos:</p>
+
+            <ul>
+                <li><strong>Clínica Geral:</strong> Atendimento completo para diversas condições de saúde, promovendo a
+                    prevenção e o tratamento de doenças comuns.</li>
+                <li><strong>Psicologia:</strong> Acolhimento psicológico para lidar com questões emocionais,
+                    comportamentais e de saúde mental.</li>
+                <li><strong>Pediatria:</strong> Cuidados especializados para crianças, desde consultas de rotina até
+                    tratamentos específicos.</li>
+                <li><strong>Oftalmologia:</strong> Avaliação e tratamento de problemas oculares, visando a saúde visual
+                    e o conforto dos pacientes.</li>
+            </ul>
+
+            <p>Nossos serviços são disponibilizados em horários flexíveis, incluindo finais de semana para garantir que
+                você tenha acesso à assistência médica quando mais precisa. Estamos aqui para cuidar de você e da sua
+                família, promovendo uma abordagem integrada para um estilo de vida saudável.</p>
+            <table>
+                <tr>
+                    <th>Serviços</th>
+                    <th>Segunda a Sexta</th>
+                    <th>Sábados</th>
+                    <th>Feriados</th>
+                </tr>
+                <tr>
+                    <td>Clínica geral</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 14h</td>
+                    <td>08h - 14h</td>
+                </tr>
+                <tr>
+                    <td>Psicologia</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 14h</td>
+                    <td>08h - 14h</td>
+                </tr>
+                <tr>
+                    <td>Pediatria</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 18h</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Oftalmologia</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 18h</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato">
+            <h1>Contato</h1>
+            <p>Telefones de contato, endereço e mapa.</p>
+            <iframe src="css.css" width="600" height="450" style="border:0;" allowfullscreen=""
+                loading="lazy"></iframe>
+            <form action="processa_formulario.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Informações de contato no rodapé.</p>
+    </footer>
+</body>
+
+</html>
